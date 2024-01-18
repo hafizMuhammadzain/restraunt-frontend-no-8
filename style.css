@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    top: 0px;
+    position: fixed;
+    background-color: #333;
+    padding: 5px 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+
+}
+
+#logo {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: rgb(8, 177, 8);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+span {
+    color: rgb(8, 177, 8);
+}
+
+
+.btncart{
+    display: flex;
+    align-items: center;
+
+}
+
+.carticon {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+
+}
+.carticon:hover {
+    width: 68px;
+    height: 68px
+
+}
+
+.navbtn  {
+    margin-right: 60px;
+    border-radius:12px ;
+    padding: 12px 28px;
+    transition-duration: 0.4s;
+  }
+  
+.navbtn:hover {
+    background-color:rgb(8, 177, 8);
+    color: white;
+  }
+
+
+
+div img{
+    width: 100%;
+    ;
+  }
+  .box{
+    overflow: hidden;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(251, 212, 212);
+    margin: 4px;
+    position: relative;
+    z-index: -100;
+}
+.box img :hover {
+    scale: 1.2;
+}
+
+.parent {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 12px;
+}
+.box > img{
+    overflow: hidden;
+    height:75%;
+    width: 100%;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    padding: 4px;
+   
+}
+.desc{
+    font-size: 12px;
+    color: rgb(52, 48, 48);
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: inline-block;
+    }
+
+.price{
+    padding: 3px 12px;
+    font-size: 20px;
+    background-color: rgb(8, 177, 8);
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.star{
+    display: flex;
+    padding-top:px ;
+    width: 18px;
+height: 18px;
+justify-content: center;
+align-items: center;
+
+}
+
